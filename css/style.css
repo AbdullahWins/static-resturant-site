@@ -1,6 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Exo 2', sans-serif;
-    margin: 0;
 }
 h1 {
     font-size: 70px;
@@ -12,12 +16,14 @@ h1 {
     background-repeat: no-repeat;
 }
 .first-half {
-    margin: 0;
     margin-left: 10%;
     margin-top: 12%;
 }
 .second-half {
     margin-right: 5%;
+}
+.third-half {
+    margin-left: 5%;
 }
 
 #blueviolet {
@@ -26,7 +32,7 @@ h1 {
 #intro {
     font-size: 20px;
     color: rgb(82, 54, 11);
-    margin-bottom: 30px;
+    margin-bottom: 35px;
 }
 .button {
     text-decoration: none;
@@ -35,4 +41,17 @@ h1 {
     padding: 10px 20px;
     border-radius: 20px;
     font-size: 20px;
+}
+.mid {
+    padding-top: 20px;
+    display: flex;
+    background-image: url(/assets/frame2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#woman1 {
+    overflow: hidden;
+}
+#woman2 {
+    max-width: 50%;
 }
